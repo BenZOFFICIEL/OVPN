@@ -1,154 +1,31 @@
-Sat Jan 10 20:11:06 2026   pkcs11_private_mode = 00000000
-Sat Jan 10 20:11:06 2026   pkcs11_private_mode = 00000000
-Sat Jan 10 20:11:06 2026   pkcs11_private_mode = 00000000
-Sat Jan 10 20:11:06 2026   pkcs11_private_mode = 00000000
-Sat Jan 10 20:11:06 2026   pkcs11_private_mode = 00000000
-Sat Jan 10 20:11:06 2026   pkcs11_private_mode = 00000000
-Sat Jan 10 20:11:06 2026   pkcs11_private_mode = 00000000
-Sat Jan 10 20:11:06 2026   pkcs11_private_mode = 00000000
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_cert_private = DISABLED
-Sat Jan 10 20:11:06 2026   pkcs11_pin_cache_period = -1
-Sat Jan 10 20:11:06 2026   pkcs11_id = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   pkcs11_id_management = DISABLED
-Sat Jan 10 20:11:06 2026   server_network = 0.0.0.0
-Sat Jan 10 20:11:06 2026   server_netmask = 0.0.0.0
-Sat Jan 10 20:11:06 2026   server_network_ipv6 = ::
-Sat Jan 10 20:11:06 2026   server_netbits_ipv6 = 0
-Sat Jan 10 20:11:06 2026   server_bridge_ip = 0.0.0.0
-Sat Jan 10 20:11:06 2026   server_bridge_netmask = 0.0.0.0
-Sat Jan 10 20:11:06 2026   server_bridge_pool_start = 0.0.0.0
-Sat Jan 10 20:11:06 2026   server_bridge_pool_end = 0.0.0.0
-Sat Jan 10 20:11:06 2026   ifconfig_pool_defined = DISABLED
-Sat Jan 10 20:11:06 2026   ifconfig_pool_start = 0.0.0.0
-Sat Jan 10 20:11:06 2026   ifconfig_pool_end = 0.0.0.0
-Sat Jan 10 20:11:06 2026   ifconfig_pool_netmask = 0.0.0.0
-Sat Jan 10 20:11:06 2026   ifconfig_pool_persist_filename = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   ifconfig_pool_persist_refresh_freq = 600
-Sat Jan 10 20:11:06 2026   ifconfig_ipv6_pool_defined = DISABLED
-Sat Jan 10 20:11:06 2026   ifconfig_ipv6_pool_base = ::
-Sat Jan 10 20:11:06 2026   ifconfig_ipv6_pool_netbits = 0
-Sat Jan 10 20:11:06 2026   n_bcast_buf = 256
-Sat Jan 10 20:11:06 2026   tcp_queue_limit = 64
-Sat Jan 10 20:11:06 2026   real_hash_size = 256
-Sat Jan 10 20:11:06 2026   virtual_hash_size = 256
-Sat Jan 10 20:11:06 2026   client_connect_script = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   learn_address_script = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   client_disconnect_script = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   client_crresponse_script = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   client_config_dir = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   ccd_exclusive = DISABLED
-Sat Jan 10 20:11:06 2026   tmp_dir = 'C:\Users\GOGETA\AppData\Local\Temp\'
-Sat Jan 10 20:11:06 2026   push_ifconfig_defined = DISABLED
-Sat Jan 10 20:11:06 2026   push_ifconfig_local = 0.0.0.0
-Sat Jan 10 20:11:06 2026   push_ifconfig_remote_netmask = 0.0.0.0
-Sat Jan 10 20:11:06 2026   push_ifconfig_ipv6_defined = DISABLED
-Sat Jan 10 20:11:06 2026   push_ifconfig_ipv6_local = ::/0
-Sat Jan 10 20:11:06 2026   push_ifconfig_ipv6_remote = ::
-Sat Jan 10 20:11:06 2026   enable_c2c = DISABLED
-Sat Jan 10 20:11:06 2026   duplicate_cn = DISABLED
-Sat Jan 10 20:11:06 2026   cf_max = 0
-Sat Jan 10 20:11:06 2026   cf_per = 0
-Sat Jan 10 20:11:06 2026   cf_initial_max = 100
-Sat Jan 10 20:11:06 2026   cf_initial_per = 10
-Sat Jan 10 20:11:06 2026   max_clients = 1024
-Sat Jan 10 20:11:06 2026   max_routes_per_client = 256
-Sat Jan 10 20:11:06 2026   auth_user_pass_verify_script = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   auth_user_pass_verify_script_via_file = DISABLED
-Sat Jan 10 20:11:06 2026   auth_token_generate = DISABLED
-Sat Jan 10 20:11:06 2026   force_key_material_export = DISABLED
-Sat Jan 10 20:11:06 2026   auth_token_lifetime = 0
-Sat Jan 10 20:11:06 2026   auth_token_secret_file = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   vlan_tagging = DISABLED
-Sat Jan 10 20:11:06 2026   vlan_accept = all
-Sat Jan 10 20:11:06 2026   vlan_pvid = 1
-Sat Jan 10 20:11:06 2026   client = ENABLED
-Sat Jan 10 20:11:06 2026   pull = ENABLED
-Sat Jan 10 20:11:06 2026   auth_user_pass_file = 'stdin'
-Sat Jan 10 20:11:06 2026   show_net_up = DISABLED
-Sat Jan 10 20:11:06 2026   route_method = 3
-Sat Jan 10 20:11:06 2026   block_outside_dns = DISABLED
-Sat Jan 10 20:11:06 2026   ip_win32_defined = DISABLED
-Sat Jan 10 20:11:06 2026   ip_win32_type = 1
-Sat Jan 10 20:11:06 2026   dhcp_masq_offset = 0
-Sat Jan 10 20:11:06 2026   dhcp_lease_time = 31536000
-Sat Jan 10 20:11:06 2026   tap_sleep = 0
-Sat Jan 10 20:11:06 2026   dhcp_options = 0x00000000
-Sat Jan 10 20:11:06 2026   dhcp_renew = DISABLED
-Sat Jan 10 20:11:06 2026   dhcp_pre_release = DISABLED
-Sat Jan 10 20:11:06 2026   domain = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   netbios_scope = '[UNDEF]'
-Sat Jan 10 20:11:06 2026   netbios_node_type = 0
-Sat Jan 10 20:11:06 2026   disable_nbt = DISABLED
-Sat Jan 10 20:11:06 2026 OpenVPN 2.6.17 [git:v2.6.17/fa20154d58ca609b] Windows [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] [DCO] built on Nov 28 2025
-Sat Jan 10 20:11:06 2026 Windows version 10.0 (Windows 10 or greater), amd64 executable
-Sat Jan 10 20:11:06 2026 library versions: OpenSSL 3.6.0 1 Oct 2025, LZO 2.10
-Sat Jan 10 20:11:06 2026 DCO version: 1.3.3
-Sat Jan 10 20:11:06 2026 MANAGEMENT: TCP Socket listening on [AF_INET]127.0.0.1:25340
-Sat Jan 10 20:11:06 2026 Need hold release from management interface, waiting...
-Sat Jan 10 20:11:06 2026 MANAGEMENT: Client connected from [AF_INET]127.0.0.1:60373
-Sat Jan 10 20:11:07 2026 MANAGEMENT: CMD 'state on'
-Sat Jan 10 20:11:07 2026 MANAGEMENT: CMD 'log on all'
-Sat Jan 10 20:11:07 2026 MANAGEMENT: CMD 'echo on all'
-Sat Jan 10 20:11:07 2026 MANAGEMENT: CMD 'bytecount 5'
-Sat Jan 10 20:11:07 2026 MANAGEMENT: CMD 'state'
-Sat Jan 10 20:11:07 2026 MANAGEMENT: CMD 'hold off'
-Sat Jan 10 20:11:07 2026 MANAGEMENT: CMD 'hold release'
-Sat Jan 10 20:11:10 2026 MANAGEMENT: CMD 'username "Auth" "GOGETA"'
-Sat Jan 10 20:11:10 2026 MANAGEMENT: CMD 'password [...]'
-Sat Jan 10 20:11:10 2026 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
-Sat Jan 10 20:11:10 2026 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
-Sat Jan 10 20:11:10 2026 Control Channel MTU parms [ mss_fix:0 max_frag:0 tun_mtu:1250 tun_max_mtu:0 headroom:126 payload:1600 tailroom:126 ET:0 ]
-Sat Jan 10 20:11:10 2026 Data Channel MTU parms [ mss_fix:0 max_frag:0 tun_mtu:1500 tun_max_mtu:1600 headroom:136 payload:1768 tailroom:562 ET:0 ]
-Sat Jan 10 20:11:10 2026 TCP/UDP: Preserving recently used remote address: [AF_INET]172.16.8.1:1195
-Sat Jan 10 20:11:10 2026 ovpn-dco device [OpenVPN Data Channel Offload] opened
-Sat Jan 10 20:11:10 2026 UDP link local: (not bound)
-Sat Jan 10 20:11:10 2026 UDP link remote: [AF_INET]172.16.8.1:1195
-Sat Jan 10 20:11:10 2026 MANAGEMENT: >STATE:1768072270,WAIT,,,,,,
-Sat Jan 10 20:11:10 2026 MANAGEMENT: >STATE:1768072270,AUTH,,,,,,
-Sat Jan 10 20:11:10 2026 TLS: Initial packet from [AF_INET]172.16.8.1:1195, sid=92dee93e 949889ae
-Sat Jan 10 20:11:10 2026 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
-Sat Jan 10 20:11:10 2026 VERIFY OK: depth=1, CN=BROLY, C=FR, ST=Ile de France, L=Paris, O=RR, OU=4
-Sat Jan 10 20:11:10 2026 VERIFY KU OK
-Sat Jan 10 20:11:10 2026 Validating certificate extended key usage
-Sat Jan 10 20:11:10 2026 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
-Sat Jan 10 20:11:10 2026 VERIFY EKU OK
-Sat Jan 10 20:11:10 2026 VERIFY OK: depth=0, CN=VEGITO, C=FR, ST=Ile de France, L=Paris, O=RR, OU=4
-Sat Jan 10 20:12:11 2026 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
-Sat Jan 10 20:12:11 2026 TLS Error: TLS handshake failed
-Sat Jan 10 20:12:11 2026 Closing DCO interface
-Sat Jan 10 20:12:11 2026 SIGUSR1[soft,tls-error] received, process restarting
-Sat Jan 10 20:12:11 2026 MANAGEMENT: >STATE:1768072331,RECONNECTING,tls-error,,,,,
-Sat Jan 10 20:12:11 2026 Restart pause, 1 second(s)
-Sat Jan 10 20:12:12 2026 Re-using SSL/TLS context
-Sat Jan 10 20:12:12 2026 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
-Sat Jan 10 20:12:12 2026 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
-Sat Jan 10 20:12:12 2026 Control Channel MTU parms [ mss_fix:0 max_frag:0 tun_mtu:1250 tun_max_mtu:0 headroom:126 payload:1600 tailroom:126 ET:0 ]
-Sat Jan 10 20:12:12 2026 Data Channel MTU parms [ mss_fix:0 max_frag:0 tun_mtu:1500 tun_max_mtu:1600 headroom:136 payload:1768 tailroom:562 ET:0 ]
-Sat Jan 10 20:12:12 2026 TCP/UDP: Preserving recently used remote address: [AF_INET]172.16.8.1:1195
-Sat Jan 10 20:12:12 2026 ovpn-dco device [OpenVPN Data Channel Offload] opened
-Sat Jan 10 20:12:12 2026 UDP link local: (not bound)
-Sat Jan 10 20:12:12 2026 UDP link remote: [AF_INET]172.16.8.1:1195
-Sat Jan 10 20:12:12 2026 MANAGEMENT: >STATE:1768072332,WAIT,,,,,,
-Sat Jan 10 20:12:12 2026 MANAGEMENT: >STATE:1768072332,AUTH,,,,,,
-Sat Jan 10 20:12:12 2026 TLS: Initial packet from [AF_INET]172.16.8.1:1195, sid=d531c166 a03dc3d7
-Sat Jan 10 20:12:12 2026 VERIFY OK: depth=1, CN=BROLY, C=FR, ST=Ile de France, L=Paris, O=RR, OU=4
-Sat Jan 10 20:12:12 2026 VERIFY KU OK
-Sat Jan 10 20:12:12 2026 Validating certificate extended key usage
-Sat Jan 10 20:12:12 2026 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
-Sat Jan 10 20:12:12 2026 VERIFY EKU OK
-Sat Jan 10 20:12:12 2026 VERIFY OK: depth=0, CN=VEGITO, C=FR, ST=Ile de France, L=Paris, O=RR, OU=4
+Sat Jan 10 20:27:24 2026 OpenVPN 2.6.17 [git:v2.6.17/fa20154d58ca609b] Windows [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] [DCO] built on Nov 28 2025
+Sat Jan 10 20:27:24 2026 Windows version 10.0 (Windows 10 or greater), amd64 executable
+Sat Jan 10 20:27:24 2026 library versions: OpenSSL 3.6.0 1 Oct 2025, LZO 2.10
+Sat Jan 10 20:27:24 2026 DCO version: 1.3.3
+Sat Jan 10 20:27:24 2026 MANAGEMENT: TCP Socket listening on [AF_INET]127.0.0.1:25341
+Sat Jan 10 20:27:24 2026 Need hold release from management interface, waiting...
+Sat Jan 10 20:27:24 2026 MANAGEMENT: Client connected from [AF_INET]127.0.0.1:59356
+Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'state on'
+Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'log on all'
+Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'echo on all'
+Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'bytecount 5'
+Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'state'
+Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'hold off'
+Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'hold release'
+Sat Jan 10 20:27:28 2026 MANAGEMENT: CMD 'username "Auth" "GOGETA"'
+Sat Jan 10 20:27:28 2026 MANAGEMENT: CMD 'password [...]'
+Sat Jan 10 20:27:28 2026 TCP/UDP: Preserving recently used remote address: [AF_INET]172.16.8.1:1195
+Sat Jan 10 20:27:28 2026 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sat Jan 10 20:27:28 2026 UDPv4 link local: (not bound)
+Sat Jan 10 20:27:28 2026 UDPv4 link remote: [AF_INET]172.16.8.1:1195
+Sat Jan 10 20:27:28 2026 MANAGEMENT: >STATE:1768073248,WAIT,,,,,,
+Sat Jan 10 20:28:28 2026 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+Sat Jan 10 20:28:28 2026 TLS Error: TLS handshake failed
+Sat Jan 10 20:28:29 2026 SIGUSR1[soft,tls-error] received, process restarting
+Sat Jan 10 20:28:29 2026 MANAGEMENT: >STATE:1768073309,RECONNECTING,tls-error,,,,,
+Sat Jan 10 20:28:29 2026 Restart pause, 1 second(s)
+Sat Jan 10 20:28:30 2026 TCP/UDP: Preserving recently used remote address: [AF_INET]172.16.8.1:1195
+Sat Jan 10 20:28:30 2026 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sat Jan 10 20:28:30 2026 UDPv4 link local: (not bound)
+Sat Jan 10 20:28:30 2026 UDPv4 link remote: [AF_INET]172.16.8.1:1195
+Sat Jan 10 20:28:30 2026 MANAGEMENT: >STATE:1768073310,WAIT,,,,,,
