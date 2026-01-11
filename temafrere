@@ -1,5 +1,5 @@
 <VirtualHost *:80>
-    ServerName 192.168.1.54
+    ServerName localhost
     DocumentRoot /var/www/html
 
     <Directory /var/www/html/mylab>
@@ -7,11 +7,9 @@
         AuthName "Ressource Protégée"
         AuthBasicProvider ldap
 
-        # DN admin LDAP pour bind
         AuthLDAPBindDN "cn=admin,dc=prograis,dc=loc"
         AuthLDAPBindPassword "Qwertyuiop1\"
 
-        # URL LDAP pour rechercher les utilisateurs
         AuthLDAPURL "ldap://192.168.1.54:389/ou=people,dc=prograis,dc=loc?uid?sub?objectClass=*"
 
         Require valid-user
