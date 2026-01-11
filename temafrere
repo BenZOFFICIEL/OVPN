@@ -1,5 +1,5 @@
 <VirtualHost *:80>
-    ServerName ldap.prograis.loc
+    ServerName 192.168.1.54
     DocumentRoot /var/www/html
 
     <Directory /var/www/html/mylab>
@@ -9,7 +9,7 @@
 
         # DN admin LDAP pour bind
         AuthLDAPBindDN "cn=admin,dc=prograis,dc=loc"
-        AuthLDAPBindPassword "Shqznthebest&*"
+        AuthLDAPBindPassword "Qwertyuiop1\"
 
         # URL LDAP pour rechercher les utilisateurs
         AuthLDAPURL "ldap://192.168.1.54:389/ou=people,dc=prograis,dc=loc?uid?sub?objectClass=*"
