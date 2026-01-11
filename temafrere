@@ -1,8 +1,11 @@
 <VirtualHost *:80>
-    ServerName localhost
     DocumentRoot /var/www/html
 
     <Directory /var/www/html/mylab>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+
         AuthType Basic
         AuthName "Ressource Protégée"
         AuthBasicProvider ldap
