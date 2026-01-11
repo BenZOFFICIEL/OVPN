@@ -1,11 +1,2 @@
-# Dépôt principal
-deb http://deb.debian.org/debian trixie main contrib non-free
-deb-src http://deb.debian.org/debian trixie main contrib non-free
-
-# Mises à jour de sécurité
-deb http://deb.debian.org/debian-security trixie-security main contrib non-free
-deb-src http://deb.debian.org/debian-security trixie-security main contrib non-free
-
-# Mises à jour “point release”
-deb http://deb.debian.org/debian trixie-updates main contrib non-free
-deb-src http://deb.debian.org/debian trixie-updates main contrib non-free
+sudo apt update
+sudo apt install apache2 apache2-utils libapache2-mod-ldap-userdir libapache2-mod-authnz-ldap
