@@ -1,31 +1,11 @@
-Sat Jan 10 20:27:24 2026 OpenVPN 2.6.17 [git:v2.6.17/fa20154d58ca609b] Windows [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] [DCO] built on Nov 28 2025
-Sat Jan 10 20:27:24 2026 Windows version 10.0 (Windows 10 or greater), amd64 executable
-Sat Jan 10 20:27:24 2026 library versions: OpenSSL 3.6.0 1 Oct 2025, LZO 2.10
-Sat Jan 10 20:27:24 2026 DCO version: 1.3.3
-Sat Jan 10 20:27:24 2026 MANAGEMENT: TCP Socket listening on [AF_INET]127.0.0.1:25341
-Sat Jan 10 20:27:24 2026 Need hold release from management interface, waiting...
-Sat Jan 10 20:27:24 2026 MANAGEMENT: Client connected from [AF_INET]127.0.0.1:59356
-Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'state on'
-Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'log on all'
-Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'echo on all'
-Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'bytecount 5'
-Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'state'
-Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'hold off'
-Sat Jan 10 20:27:24 2026 MANAGEMENT: CMD 'hold release'
-Sat Jan 10 20:27:28 2026 MANAGEMENT: CMD 'username "Auth" "GOGETA"'
-Sat Jan 10 20:27:28 2026 MANAGEMENT: CMD 'password [...]'
-Sat Jan 10 20:27:28 2026 TCP/UDP: Preserving recently used remote address: [AF_INET]172.16.8.1:1195
-Sat Jan 10 20:27:28 2026 Socket Buffers: R=[65536->65536] S=[65536->65536]
-Sat Jan 10 20:27:28 2026 UDPv4 link local: (not bound)
-Sat Jan 10 20:27:28 2026 UDPv4 link remote: [AF_INET]172.16.8.1:1195
-Sat Jan 10 20:27:28 2026 MANAGEMENT: >STATE:1768073248,WAIT,,,,,,
-Sat Jan 10 20:28:28 2026 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
-Sat Jan 10 20:28:28 2026 TLS Error: TLS handshake failed
-Sat Jan 10 20:28:29 2026 SIGUSR1[soft,tls-error] received, process restarting
-Sat Jan 10 20:28:29 2026 MANAGEMENT: >STATE:1768073309,RECONNECTING,tls-error,,,,,
-Sat Jan 10 20:28:29 2026 Restart pause, 1 second(s)
-Sat Jan 10 20:28:30 2026 TCP/UDP: Preserving recently used remote address: [AF_INET]172.16.8.1:1195
-Sat Jan 10 20:28:30 2026 Socket Buffers: R=[65536->65536] S=[65536->65536]
-Sat Jan 10 20:28:30 2026 UDPv4 link local: (not bound)
-Sat Jan 10 20:28:30 2026 UDPv4 link remote: [AF_INET]172.16.8.1:1195
-Sat Jan 10 20:28:30 2026 MANAGEMENT: >STATE:1768073310,WAIT,,,,,,
+# Dépôt principal
+deb http://deb.debian.org/debian trixie main contrib non-free
+deb-src http://deb.debian.org/debian trixie main contrib non-free
+
+# Mises à jour de sécurité
+deb http://deb.debian.org/debian-security trixie-security main contrib non-free
+deb-src http://deb.debian.org/debian-security trixie-security main contrib non-free
+
+# Mises à jour “point release”
+deb http://deb.debian.org/debian trixie-updates main contrib non-free
+deb-src http://deb.debian.org/debian trixie-updates main contrib non-free
