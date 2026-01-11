@@ -1,2 +1,19 @@
-sudo mkdir /var/www/html/mylab
-echo "<h1>Zone protégée LDAP</h1>" | sudo tee /var/www/html/mylab/index.html
+<VirtualHost *:80>
+    ServerName ldap.prograis.loc
+    DocumentRoot /var/www/html
+
+    <Directory /var/www/html/mylab>
+        AuthType Basic
+        AuthName "Ressource Protégée"
+        AuthBasicProvider ldap
+
+        # DN admin LDAP pour bind
+        AuthLDAPBindDN "cn=admin,dc=prograis,dc=loc"
+        AuthLDAPBindPassword "Shqznthebest&*"
+
+        # URL LDAP pour rechercher les utilisateurs
+        AuthLDAPURL "ldap://192.168.1.54:389/ou=people,dc=prograis,dc=loc?uid?sub?objectClass=*"
+
+        Require valid-user
+    </Directory>
+</VirtualHost>
