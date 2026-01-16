@@ -1,11 +1,17 @@
 <VirtualHost *:80>
+    # Nom du serveur (à modifier selon ton domaine)
+    ServerName mylab.prograis.loc
     ServerAdmin webmaster@localhost
+
+    # Répertoire racine du site
     DocumentRoot /var/www/html
 
+    # Protection LDAP pour le sous-répertoire /mylab
     <Directory "/var/www/html/mylab">
         Options Indexes FollowSymLinks
         AllowOverride None
 
+        # Authentification LDAP
         AuthType Basic
         AuthName "Zone protégée"
         AuthBasicProvider ldap
@@ -17,6 +23,7 @@
         Require valid-user
     </Directory>
 
+    # Logs
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
