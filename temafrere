@@ -1,2 +1,9 @@
-systemctl list-units --type=service | grep lemon
-  lemonldap-ng-fastcgi-server.service      loaded active running FastCGI server for Lemonldap::NG websso system
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 apachectl[31085]: AH00558: apache2: Could not reliably determine the>
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 apachectl[31085]: (98)Address already in use: AH00072: make_sock: co>
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 apachectl[31085]: (98)Address already in use: AH00072: make_sock: co>
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 apachectl[31085]: no listening sockets available, shutting down
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 apachectl[31085]: AH00015: Unable to open logs
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 systemd[1]: apache2.service: Control process exited, code=exited, st>
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 systemd[1]: apache2.service: Failed with result 'exit-code'.
+janv. 16 15:34:47 gogeta-Standard-PC-Q35-ICH9-2009 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
