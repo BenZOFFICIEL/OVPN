@@ -1,2 +1,2 @@
-curl https://lemonldap-ng.org/lemonldap-debian-packages-pub.gpg \
-| gpg --dearmor | sudo tee /usr/share/keyrings/lemonldap-debian-packages-pub.gpg > /dev/null
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/lemonldap-debian-packages-pub.gpg] https://lemonldap-ng.org/deb stable main" \
+| sudo tee /etc/apt/sources.list.d/lemonldap-ng.list
