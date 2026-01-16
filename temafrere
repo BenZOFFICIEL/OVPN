@@ -1,2 +1,2 @@
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/lemonldap-debian-packages-pub.gpg] https://lemonldap-ng.org/deb stable main" \
-| sudo tee /etc/apt/sources.list.d/lemonldap-ng.list
+systemctl list-units --type=service | grep lemon
+  lemonldap-ng-fastcgi-server.service      loaded active running FastCGI server for Lemonldap::NG websso system
