@@ -1,7 +1,6 @@
 <VirtualHost *:80>
-    # Nom du serveur (à modifier selon ton domaine)
     ServerName mylab.prograis.loc
-    ServerAdmin webmaster@localhost
+    ServerAlias 127.0.0.1 192.168.122.233
 
     # Répertoire racine du site
     DocumentRoot /var/www/html
