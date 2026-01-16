@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Zone protégée</title>
-</head>
-<body>
-    <h1>Zone protégée</h1>
-    <p>C'est le laboratoire Prograis</p>
-</body>
-</html>
+<Directory "/var/www/html/mylab">
+    AuthType Basic
+    AuthName "Zone protégée"
+    AuthBasicProvider ldap
+    AuthLDAPURL "ldap://192.168.1.54/dc=prograis,dc=loc?uid"
+    Require valid-user
+</Directory>
