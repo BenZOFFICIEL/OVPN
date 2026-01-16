@@ -1,20 +1,11 @@
-<VirtualHost *:80>
-    DocumentRoot /var/www/html
-
-    <Directory /var/www/html/mylab>
-        Options Indexes FollowSymLinks
-        AllowOverride None
-        Require all granted
-
-        AuthType Basic
-        AuthName "Ressource Protégée"
-        AuthBasicProvider ldap
-
-        AuthLDAPBindDN "cn=admin,dc=prograis,dc=loc"
-        AuthLDAPBindPassword "Qwertyuiop1\"
-
-        AuthLDAPURL "ldap://192.168.1.54:389/ou=people,dc=prograis,dc=loc?uid?sub?objectClass=*"
-
-        Require valid-user
-    </Directory>
-</VirtualHost>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Zone protégée</title>
+</head>
+<body>
+    <h1>Zone protégée</h1>
+    <p>C'est le laboratoire Prograis</p>
+</body>
+</html>
