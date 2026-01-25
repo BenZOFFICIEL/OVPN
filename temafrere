@@ -1,11 +1,29 @@
-# Dépôt principal
-deb http://deb.debian.org/debian trixie main contrib non-free
-deb-src http://deb.debian.org/debian trixie main contrib non-free
+# === ACL ASSR TP ===
+acl groupe0 src 192.168.1.158/32
+acl groupe1 src 10.10.10.10/32
+acl groupe2 src 192.180.1.0/24
+acl groupe3 src 172.16.10.0/24
 
-# Mises à jour de sécurité
-deb http://deb.debian.org/debian-security trixie-security main contrib non-free
-deb-src http://deb.debian.org/debian-security trixie-security main contrib non-free
+# === HTTPS / SSL ===
+acl SSL_ports port 443
+acl CONNECT method CONNECT
+http_access allow CONNECT SSL_ports
 
-# Mises à jour “point release”
-deb http://deb.debian.org/debian trixie-updates main contrib non-free
-deb-src http://deb.debian.org/debian trixie-updates main contrib non-free
+# === Blocage Facebook ===
+acl facebook dstdomain .facebook.com
+http_access deny facebook
+
+# === Accès HTTP(S) ===
+http_access allow groupe0
+http_access allow groupe1
+http_access allow groupe2
+http_access deny  groupe3
+
+# Bloque tout le reste
+http_access deny all
+
+# === Port d'écoute ===
+http_port 8080
+
+# === Modification User-Agent ===
+request_header_add User-Agent "RayanPSTB2025/1.0" all
