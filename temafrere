@@ -4,9 +4,12 @@ acl groupe1 src 10.10.10.10/32
 acl groupe2 src 192.180.1.0/24
 acl groupe3 src 172.16.10.0/24
 
-# === HTTPS / SSL (DOIT ÊTRE AVANT TOUT) ===
+# === HTTPS / SSL ===
 acl SSL_ports port 443
+acl Safe_ports port 80
+acl Safe_ports port 443
 acl CONNECT method CONNECT
+http_access deny CONNECT !SSL_ports
 http_access allow CONNECT SSL_ports
 
 # === Blocage Facebook ===
