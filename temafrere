@@ -4,7 +4,7 @@ acl groupe1 src 10.10.10.10/32
 acl groupe2 src 192.180.1.0/24
 acl groupe3 src 172.16.10.0/24
 
-# === HTTPS / SSL ===
+# === HTTPS / SSL (DOIT ÊTRE AVANT TOUT) ===
 acl SSL_ports port 443
 acl CONNECT method CONNECT
 http_access allow CONNECT SSL_ports
@@ -19,7 +19,7 @@ http_access allow groupe1
 http_access allow groupe2
 http_access deny  groupe3
 
-# Bloque tout le reste
+# === Bloque tout le reste ===
 http_access deny all
 
 # === Port d'écoute ===
