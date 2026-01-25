@@ -1,3 +1,52 @@
-# === SquidGuard ===
-url_rewrite_program /usr/bin/squidGuard -c /etc/squid/squidguard.conf
-url_rewrite_children 10
+dbhome /var/lib/squidguard/db
+logdir /var/log/squidguard
+
+# === SOURCES ===
+src Rayanadmin {
+    ip 192.168.1.158
+}
+
+src groupe1 {
+    ip 10.10.10.10
+}
+
+src groupe2 {
+    ip 192.180.1.0/24
+}
+
+# === DESTINATIONS ===
+dst adult {
+    domainlist adult/domains
+    urllist adult/urls
+}
+
+dst mail {
+    domainlist mail/domains
+}
+
+dst perso {
+    domainlist perso/domains
+}
+
+acl {
+
+    Rayanadmin {
+        pass all !perso
+        redirect https://fr.wikipedia.org/wiki/Mauvais
+    }
+
+    groupe1 {
+        pass mail
+        redirect https://fr.wikipedia.org/wiki/Mauvais
+    }
+
+    groupe2 {
+        pass all !adult
+        redirect https://fr.wikipedia.org/wiki/Mauvais
+    }
+
+    default {
+        pass none
+        redirect https://fr.wikipedia.org/wiki/Mauvais
+    }
+}
