@@ -32,21 +32,21 @@ acl {
 
     Rayanadmin {
         pass all !perso
-        redirect https://fr.wikipedia.org/wiki/Mauvais
+        redirect "https://fr.wikipedia.org/wiki/Mauvais"
     }
 
     groupe1 {
         pass mail
-        redirect https://fr.wikipedia.org/wiki/Mauvais
+        redirect "https://fr.wikipedia.org/wiki/Mauvais"
     }
 
     groupe2 {
         pass all !adult
-        redirect https://fr.wikipedia.org/wiki/Mauvais
+        redirect "https://fr.wikipedia.org/wiki/Mauvais"
     }
 
     default {
         pass none
-        redirect https://fr.wikipedia.org/wiki/Mauvais
+        redirect "https://fr.wikipedia.org/wiki/Mauvais"
     }
 }
