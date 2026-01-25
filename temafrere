@@ -1,32 +1,3 @@
-# === ACL ASSR TP ===
-acl groupe0 src 192.168.1.158/32
-acl groupe1 src 10.10.10.10/32
-acl groupe2 src 192.180.1.0/24
-acl groupe3 src 172.16.10.0/24
-
-# === HTTPS / SSL ===
-acl SSL_ports port 443
-acl CONNECT method CONNECT
-http_access deny CONNECT !SSL_ports
-http_access allow CONNECT SSL_ports groupe0
-http_access allow CONNECT SSL_ports groupe1
-http_access allow CONNECT SSL_ports groupe2
-
-# === Blocage Facebook ===
-acl facebook dstdomain .facebook.com
-http_access deny facebook
-
-# === Accès HTTP ===
-http_access allow groupe0
-http_access allow groupe1
-http_access allow groupe2
-http_access deny  groupe3
-
-# === Bloque tout le reste ===
-http_access deny all
-
-# === Port d'écoute ===
-http_port 8080
-
-# === Modification User-Agent ===
-request_header_add User-Agent "RayanPSTB2025/1.0" all
+# === SquidGuard ===
+url_rewrite_program /usr/bin/squidGuard -c /etc/squid/squidguard.conf
+url_rewrite_children 10
