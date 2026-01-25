@@ -6,17 +6,17 @@ acl groupe3 src 172.16.10.0/24
 
 # === HTTPS / SSL ===
 acl SSL_ports port 443
-acl Safe_ports port 80
-acl Safe_ports port 443
 acl CONNECT method CONNECT
 http_access deny CONNECT !SSL_ports
-http_access allow CONNECT SSL_ports
+http_access allow CONNECT SSL_ports groupe0
+http_access allow CONNECT SSL_ports groupe1
+http_access allow CONNECT SSL_ports groupe2
 
 # === Blocage Facebook ===
 acl facebook dstdomain .facebook.com
 http_access deny facebook
 
-# === Accès HTTP(S) ===
+# === Accès HTTP ===
 http_access allow groupe0
 http_access allow groupe1
 http_access allow groupe2
